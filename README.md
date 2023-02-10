@@ -16,6 +16,14 @@ use {
 
 ## Setup
 ```lua
+local null_ls = require("null-ls")
+
+null_ls.setup({
+  sources = {
+    -- your sourses
+  },
+})
+
 require("compare-with-clipboard").setup()
 ```
 This is equivalent to:

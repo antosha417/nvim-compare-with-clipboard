@@ -1,9 +1,6 @@
 # nvim-compare-with-clipboard
 
-Sometimes I see two blocks of text that I suspect to be identical or I want to see the difference. But they are too long to compare by hands.
-This plugin aims to solve this problem.
-
-`nvim-lsp-file-operations` is a Neovim plugin that allows to compare currently selected text with contents of a clipboard using [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) as a convenient way to make it available everywhere.
+`nvim-compare-with-clipboard` is a Neovim plugin that allows to compare currently selected text with contents of a clipboard using [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) as a convenient way to make it available as a code action. You can also use plain lua api.
 
 
 ## Installation

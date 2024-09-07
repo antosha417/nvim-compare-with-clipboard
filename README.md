@@ -41,7 +41,7 @@ null_ls.setup({
 ### Plain
 You can also setup this plugin without `null-ls`. You need to call setup function only if you want to change the defaults. Otherwise it is good to go.
 ```lua
-require('compare-with-clipboard.null-ls').setup({
+require('compare-with-clipboard').setup({
   -- by default splits are horizontal
   vertical_split = false,
 })
